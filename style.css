@@ -1,0 +1,46 @@
+body{
+    /* margin: 30px;
+    padding:30px; */
+    background-color: aqua;
+}
+.c3{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.cart{
+    background-color:red ;
+    width:120px;
+    height:40px;
+    color:white;
+    box-shadow: 10px 10px  black;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: .5s;
+
+}
+.cart:hover{
+    background-color:rgb(231, 69, 69);
+    box-shadow: none;
+    transition-duration: .5s; 
+}
+    .twitt{
+        margin: 40px;
+        border-radius:50%;
+        padding:10px;
+        font-size: xx-large;
+        border:2px solid blue;
+        color:blue;
+        box-shadow: none;
+        cursor: pointer;
+        transition-duration: .5s;
+    }
+    .twitt:hover{
+        color:white;
+        background-color: blue;
+        border:2px solid whitesmoke;
+        box-shadow: 6px 6px 3px grey;
+        transition-duration: .5s;
+    }    
